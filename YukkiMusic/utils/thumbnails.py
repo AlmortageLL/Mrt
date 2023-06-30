@@ -94,7 +94,7 @@ async def gen_thumb(videoid):
         )
         draw.text(
             (600, 150),
-            "NOW PLAYING",
+            "QURAN",
             fill="white",
             stroke_width=2,
             stroke_fill="white",
@@ -137,6 +137,12 @@ async def gen_thumb(videoid):
         draw.text(
             (600, 550),
             f"Channel : {channel}",
+            (255, 255, 255),
+            font=arial,
+        )
+        draw.text(
+            (600, 600),
+            f"DEV : ALMORTAGEL",
             (255, 255, 255),
             font=arial,
         )
